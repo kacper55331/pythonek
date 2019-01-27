@@ -19,6 +19,7 @@ for i in range(0, a):
     lx.append(x)
     ly.append(y)
 plt.plot(lx, ly, "o:", color="green", linewidth=2, alpha=0.5)
+plt.plot([0, x], [0, y], color="blue")
 
 s = p.fabs(p.sqrt(x**2 + y**2))
 print("Wektor przesunięcia:", s)
